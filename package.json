@@ -31,9 +31,7 @@
   },
   "optionalDependencies": {
     "get-pixels": "*",
-    "serialport": "*",
-    "qr-image": "*",
-    "usb": "*"
+    "qr-image": "*"
   },
   "devDependencies": {
     "mocha": "*"

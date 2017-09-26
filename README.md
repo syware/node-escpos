@@ -1,5 +1,7 @@
 # ESCPOS [![npm version](https://badge.fury.io/js/escpos.svg)](https://www.npmjs.com/package/escpos )
 
+# Syware Version without usb and serial adapter for easy compilation
+
 ESC/POS Printer driver for node
 
 [![NPM](https://nodei.co/npm/escpos.png?downloads=true&downloadRank=true&stars=true)](https://npmjs.org/escpos )
