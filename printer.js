@@ -30,6 +30,11 @@ function Printer(adapter){
  */
 util.inherits(Printer, EventEmitter);
 
+Printer.prototype.init = function(){
+  this.buffer.write('\x1b\x40');
+  return this;
+};
+
 /**
  * Fix bottom margin
  * @param  {[String]} size
